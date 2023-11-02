@@ -1,0 +1,31 @@
+.btnOutline {
+  height: 5%;
+  width: auto;
+  color: white;
+  padding: 5px;
+  font-style: italic;
+  text-align: center;
+  margin: 0px 5px;
+}
+
+.btnOutline:hover {
+  border-bottom: 2pt solid green;
+  cursor: pointer;
+}
+
+.mobile-btnOutline {
+  height: 5%;
+  width: auto;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  padding: 1px;
+  font-style: italic;
+  text-align: center;
+}
+
+.mobile-btnOutline:hover {
+  border-bottom: 1pt solid green;
+}
