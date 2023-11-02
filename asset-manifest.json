@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/kkbukefal/static/css/main.a1b69ba1.css",
-    "main.js": "/kkbukefal/static/js/main.a08051e9.js",
-    "static/js/787.2da3cd42.chunk.js": "/kkbukefal/static/js/787.2da3cd42.chunk.js",
-    "static/media/SaveInsta.App - _52718386941.mp4": "/kkbukefal/static/media/SaveInsta.App - 2973620080945286897_52718386941.dbca4f7ce01017a078c3.mp4",
-    "static/media/logoTransperentDesktop.jpg": "/kkbukefal/static/media/logoTransperentDesktop.9ed331f76dbf91a94f11.jpg",
-    "index.html": "/kkbukefal/index.html",
-    "main.a1b69ba1.css.map": "/kkbukefal/static/css/main.a1b69ba1.css.map",
-    "main.a08051e9.js.map": "/kkbukefal/static/js/main.a08051e9.js.map",
-    "787.2da3cd42.chunk.js.map": "/kkbukefal/static/js/787.2da3cd42.chunk.js.map"
+    "main.css": "/static/css/main.a1b69ba1.css",
+    "main.js": "/static/js/main.861c37d8.js",
+    "static/js/787.2da3cd42.chunk.js": "/static/js/787.2da3cd42.chunk.js",
+    "static/media/SaveInsta.App - _52718386941.mp4": "/static/media/SaveInsta.App - 2973620080945286897_52718386941.dbca4f7ce01017a078c3.mp4",
+    "static/media/logoTransperentDesktop.jpg": "/static/media/logoTransperentDesktop.9ed331f76dbf91a94f11.jpg",
+    "index.html": "/index.html",
+    "main.a1b69ba1.css.map": "/static/css/main.a1b69ba1.css.map",
+    "main.861c37d8.js.map": "/static/js/main.861c37d8.js.map",
+    "787.2da3cd42.chunk.js.map": "/static/js/787.2da3cd42.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a1b69ba1.css",
-    "static/js/main.a08051e9.js"
+    "static/js/main.861c37d8.js"
   ]
 }
