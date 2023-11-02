@@ -5,30 +5,24 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin-top: 40px;
 }
 
 .left-side {
   display: flex;
-  width: 15%;
+  width: 40%;
   text-align: center;
-  justify-content: left;
+  justify-content: center;
 }
 
 .right-side {
   padding-right: 10%;
+  padding-bottom: 20px;
   display: flex;
   flex-direction: row-reverse;
-  width: 65%;
+  width: 60%;
   z-index: 1;
   text-align: center;
-}
-
-.heading {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  width: 20%;
-  z-index: 1;
 }
 
 .heading h2 {

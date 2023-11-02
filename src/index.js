@@ -16,7 +16,20 @@ if (isMobile) {
         <VideoPlayer videoSource={videoSource} />
       </VideoContainer>
       {/* <NavBar mobile={true} /> */}
-      <div>Coming soon...</div>
+      <div
+        style={{
+          width: "100%",
+          fontSize: "30px",
+          display: "flex",
+          justifyContent: "center",
+          textAlign: "center",
+          fontWeight: "bold",
+          marginTop: "100px",
+          color: "white",
+        }}
+      >
+        Coming soon...
+      </div>
     </React.StrictMode>
   );
 } else {
@@ -27,7 +40,19 @@ if (isMobile) {
         <VideoPlayer videoSource={videoSource} />
       </VideoContainer>
       <NavBar mobile={false} />
-      <div>Coming soon...</div>
+      <div
+        style={{
+          width: "100%",
+          fontSize: "30px",
+          display: "flex",
+          justifyContent: "center",
+          textAlign: "center",
+          fontWeight: "bold",
+          marginTop: "100px",
+        }}
+      >
+        Coming soon...
+      </div>
     </React.StrictMode>
   );
 }

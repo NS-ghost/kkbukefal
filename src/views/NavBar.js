@@ -1,6 +1,6 @@
 import React from "react";
 import NavButton from "../components/NavButtons";
-import logo from "../utils/pictures/logoTransperentDesktop.jpg";
+import logo from "../utils/pictures/newLogo.png";
 import "../styles/navBar.css";
 
 const NavBar = (props) => {
@@ -9,12 +9,9 @@ const NavBar = (props) => {
       <div className="left-side">
         <img
           src={logo}
-          style={{ height: "170px", width: "180px" }}
+          style={{ height: "230px", width: "80%" }}
           alt="logo"
         ></img>
-      </div>
-      <div className="heading">
-        <h2>Коњички клуб Букефал</h2>
       </div>
       <div className="right-side">
         <NavButton title="Деда Мраз" mobile={props.mobile} />
