@@ -1,0 +1,39 @@
+.descText {
+  display: flex;
+  width: 100%;
+  margin-top: 60px;
+  position: absolute;
+  justify-content: center;
+}
+
+.content {
+  width: 60%;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-style: italic;
+  line-height: 150%;
+}
+
+.mobile-descText {
+  width: 100%;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 90px;
+}
+
+.mobile-content {
+  width: 60%;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-style: italic;
+  font-weight: lighter;
+}
