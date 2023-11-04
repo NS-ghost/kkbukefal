@@ -6,7 +6,7 @@ import "../styles/animation.css";
 
 const NavBar = (props) => {
   return (
-    <div className="navBarLayout section">
+    <div className="navBarLayout">
       <div className="left-side">
         <img
           src={logo}
@@ -14,7 +14,7 @@ const NavBar = (props) => {
           alt="logo"
         ></img>
       </div>
-      <div className="right-side">
+      <div className="right-side section">
         <NavButton title="Деда Мраз" mobile={props.mobile} />
         <NavButton title="Венчања" mobile={props.mobile} />
         <NavButton title="Јахање" mobile={props.mobile} />

@@ -9,7 +9,7 @@
 }
 
 .btnOutline:hover {
-  border-bottom: 2pt solid green;
+  border-bottom: 2pt solid #013317;
   cursor: pointer;
 }
 

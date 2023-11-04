@@ -50,6 +50,52 @@
   font-weight: bold;
 }
 
-.hidden {
+.popup-container {
   display: none;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+  border: 1pt solid white;
+  border-radius: 5px;
+  opacity: 0;
+  transform: translateY(-5px);
+  animation: fadeIn 0.3s ease-in-out forwards;
+}
+
+.popup-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  color: black;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  font-family: -apple-system, "Inter", sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.popup-content::before {
+  content: "";
+  position: absolute;
+  top: -19px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent white transparent; /* White arrow */
+  z-index: -1; /* Behind the content */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
