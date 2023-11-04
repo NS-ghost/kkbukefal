@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.901b1fe2.css",
-    "main.js": "/static/js/main.c26caf19.js",
+    "main.css": "/static/css/main.b2d06e66.css",
+    "main.js": "/static/js/main.e5a4b876.js",
     "static/js/787.2da3cd42.chunk.js": "/static/js/787.2da3cd42.chunk.js",
     "static/media/SaveInsta.App - _52718386941.mp4": "/static/media/SaveInsta.App - 2973620080945286897_52718386941.dbca4f7ce01017a078c3.mp4",
     "static/media/newLogo.png": "/static/media/newLogo.5e92128a558dd50f5fbb.png",
     "static/media/phone-call-alt.svg": "/static/media/phone-call-alt.a9e7776ef976807b47b872e9f229a648.svg",
     "index.html": "/index.html",
-    "main.901b1fe2.css.map": "/static/css/main.901b1fe2.css.map",
-    "main.c26caf19.js.map": "/static/js/main.c26caf19.js.map",
+    "main.b2d06e66.css.map": "/static/css/main.b2d06e66.css.map",
+    "main.e5a4b876.js.map": "/static/js/main.e5a4b876.js.map",
     "787.2da3cd42.chunk.js.map": "/static/js/787.2da3cd42.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.901b1fe2.css",
-    "static/js/main.c26caf19.js"
+    "static/css/main.b2d06e66.css",
+    "static/js/main.e5a4b876.js"
   ]
 }
