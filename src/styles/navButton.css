@@ -6,6 +6,7 @@
   font-style: italic;
   text-align: center;
   margin: 0px 5px;
+  font-family: -apple-system, "Inter", sans-serif;
 }
 
 .btnOutline:hover {
