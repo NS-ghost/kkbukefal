@@ -4,31 +4,22 @@ import { isMobile } from "react-device-detect";
 import "./styles/index.css";
 import "./styles/animation.css";
 import reportWebVitals from "./reportWebVitals";
-import VideoPlayer from "./components/VideoPlayer";
-import videoSource from "./utils/videos/SaveInsta.App - 2973620080945286897_52718386941.mp4";
-import VideoContainer from "./components/VideoContainer";
-import NavBar from "./views/NavBar";
-import HomeTextField from "./components/HomeTextField";
-import ContatUsButtons from "./components/ContatUsButtons";
+import HomePageMobile from "./pages/HomePageMobile";
 import HomePage from "./pages/HomePage";
 
 if (isMobile) {
   const root = ReactDOM.createRoot(document.getElementById("root"));
   root.render(
     <React.StrictMode>
-      <VideoContainer>
-        <VideoPlayer videoSource={videoSource} />
-      </VideoContainer>
-      {/* <NavBar mobile={true} />
-      <HomeTextField mobile={true} /> */}
-      <ContatUsButtons mobile={true} />
+      <HomePageMobile />
     </React.StrictMode>
   );
 } else {
   const root = ReactDOM.createRoot(document.getElementById("root"));
   root.render(
     <React.StrictMode>
-      <HomePage />
+      {/* <HomePage /> */}
+      <HomePageMobile />
     </React.StrictMode>
   );
 }

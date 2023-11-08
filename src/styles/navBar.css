@@ -29,3 +29,35 @@
   font-size: 30px;
   font-style: italic;
 }
+
+.mobile-navBarLayout {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.mobile-left-side {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+
+.mobile-right-side {
+  padding-right: 10%;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 60%;
+  z-index: 1;
+  text-align: center;
+}
+
+.mobile-heading h2 {
+  font-size: 30px;
+  font-style: italic;
+}

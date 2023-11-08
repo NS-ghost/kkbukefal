@@ -4,24 +4,17 @@ import logo from "../utils/pictures/newLogo.png";
 import "../styles/navBar.css";
 import "../styles/animation.css";
 
-const NavBar = (props) => {
+const NavBar = ({ mobile, ...props }) => {
   return (
-    <div className="navBarLayout">
-      <div className="left-side">
+    <div className={`${mobile ? "mobile-" : ""}navBarLayout`}>
+      <div className={`${mobile ? "mobile-" : ""}left-side`}>
         <img
           src={logo}
-          style={{ height: "230px", width: "80%" }}
+          style={{ height: "160px", width: "70%" }}
           alt="logo"
         ></img>
       </div>
-      <div className="right-side section">
-        <NavButton title="Деда Мраз" mobile={props.mobile} />
-        <NavButton title="Венчања" mobile={props.mobile} />
-        <NavButton title="Јахање" mobile={props.mobile} />
-        <NavButton title="Наши фијакери" mobile={props.mobile} />
-        <NavButton title="Наши коњи" mobile={props.mobile} />
-        <NavButton title="О нама" mobile={props.mobile} />
-      </div>
+      <div className={`${mobile ? "mobile-" : ""}right-side section`}></div>
     </div>
   );
 };
