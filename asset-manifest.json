@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.09570c8c.css",
+    "main.css": "/static/css/main.50f70259.css",
     "main.js": "/static/js/main.ef5c4f23.js",
     "static/js/787.2da3cd42.chunk.js": "/static/js/787.2da3cd42.chunk.js",
     "static/media/SaveInsta.App - _52718386941.mp4": "/static/media/SaveInsta.App - 2973620080945286897_52718386941.dbca4f7ce01017a078c3.mp4",
     "static/media/newLogo.png": "/static/media/newLogo.5e92128a558dd50f5fbb.png",
     "static/media/phone-call-alt.svg": "/static/media/phone-call-alt.a9e7776ef976807b47b872e9f229a648.svg",
     "index.html": "/index.html",
-    "main.09570c8c.css.map": "/static/css/main.09570c8c.css.map",
+    "main.50f70259.css.map": "/static/css/main.50f70259.css.map",
     "main.ef5c4f23.js.map": "/static/js/main.ef5c4f23.js.map",
     "787.2da3cd42.chunk.js.map": "/static/js/787.2da3cd42.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.09570c8c.css",
+    "static/css/main.50f70259.css",
     "static/js/main.ef5c4f23.js"
   ]
 }
