@@ -18,8 +18,7 @@ if (isMobile) {
   const root = ReactDOM.createRoot(document.getElementById("root"));
   root.render(
     <React.StrictMode>
-      {/* <HomePage /> */}
-      <HomePageMobile />
+      <HomePage />
     </React.StrictMode>
   );
 }
