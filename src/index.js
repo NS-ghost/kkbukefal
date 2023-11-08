@@ -7,7 +7,7 @@ import reportWebVitals from "./reportWebVitals";
 import HomePageMobile from "./pages/HomePageMobile";
 import HomePage from "./pages/HomePage";
 
-if (isMobile) {
+if (isMobile || window.innerWidth < 850) {
   const root = ReactDOM.createRoot(document.getElementById("root"));
   root.render(
     <React.StrictMode>
