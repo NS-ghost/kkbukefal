@@ -7,6 +7,7 @@ import VideoContainer from "../components/VideoContainer";
 import NavBar from "../views/NavBar";
 import HomeTextField from "../components/HomeTextField";
 import ContatUsButtons from "../components/ContatUsButtons";
+import CommercialPopUp from "../components/CommercialPopUp";
 
 const HomePageMobile = () => {
   return (
@@ -17,6 +18,7 @@ const HomePageMobile = () => {
       <NavBar mobile={true} />
       <HomeTextField mobile={true} />
       <ContatUsButtons mobile={true} />
+      <CommercialPopUp />
     </div>
   );
 };

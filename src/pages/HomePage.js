@@ -7,6 +7,7 @@ import VideoContainer from "../components/VideoContainer";
 import NavBar from "../views/NavBar";
 import HomeTextField from "../components/HomeTextField";
 import ContatUsButtons from "../components/ContatUsButtons";
+import CommercialPopUp from "../components/CommercialPopUp";
 
 const HomePage = () => {
   return (
@@ -19,6 +20,7 @@ const HomePage = () => {
         <HomeTextField />
         <ContatUsButtons />
       </div>
+      <CommercialPopUp />
     </div>
   );
 };
